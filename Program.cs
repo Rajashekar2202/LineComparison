@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace HelloWorld
+﻿
+namespace LineComparision
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        public static void Main(String[] args)
+        { 
+            LineComparisionUC1 line1 = new LineComparisionUC1();
+            line1.Distance();
         }
     }
 }
